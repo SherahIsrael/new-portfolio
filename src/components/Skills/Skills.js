@@ -12,7 +12,7 @@ import Leaf9 from '../../assets/images/leaf9.webp'
 const Skills = () => {
   return (
     <>
-    <div className='autumn'>
+    <div className='autumn bg'>
     <div className="leaves">
             <div className="gliding">
                 <div><img src={Leaf1} alt="leaf" /></div>

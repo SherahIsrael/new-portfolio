@@ -9,10 +9,14 @@ import Leaf7 from '../../assets/images/leaf7.webp'
 import Leaf8 from '../../assets/images/leaf8.webp'
 import Leaf9 from '../../assets/images/leaf9.webp'
 
+import Admin from '../../assets/images/admin.webp'
+import ShopFront from '../../assets/images/shopFront.webp'
+
+
 const Projects = () => {
   return (
     <>
-    <div className='autumn'>
+    <div className='autumn bg'>
     <div class="leaves">
       <div class="fall">
         <div><img src={Leaf1} alt="leaf" /></div>
@@ -147,9 +151,9 @@ const Projects = () => {
     <div class="container">
       <div class="expand">
         <div class="showcase face1">
-          {/* <div class="content">
-            <img src="/images/admin.png" alt="Shop With Us Admin">
-          </div> */}
+          <div class="content">
+            <img src={Admin} alt="Shop With Us Admin" />
+          </div>
         </div>
         <div class="showcase face2 box">
             <div class="content">
@@ -161,9 +165,9 @@ const Projects = () => {
     </div>
     <div class="expand">
         <div class="showcase face1">
-            {/* <div class="content">
-                <img src="/images/shopFront.png" alt="Shop With Us">
-            </div> */}
+            <div class="content">
+                <img src={ShopFront} alt="Shop With Us" />
+            </div>
         </div>
         <div class="showcase face2 box">
             <div class="content">
